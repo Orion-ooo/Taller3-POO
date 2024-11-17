@@ -22,10 +22,7 @@ public class NewMain {
         System.out.println("ingresa el stock del producto:");
         producto.stock = entradaNum.nextInt();
         
-        System.out.println("info del producto: "
-                + "nombre: " + producto.nombre + 
-                ", precio: " + producto.precio +
-                ", stock: " + producto.stock);
+        producto.mostrarInfo();
         
     }
     
